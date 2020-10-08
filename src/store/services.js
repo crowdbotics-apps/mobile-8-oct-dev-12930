@@ -1,6 +1,6 @@
 import axios from "axios"
 const mobileoctAPI = axios.create({
-  baseURL: "https://mobile-8-oct-dev-12930.botics.co/",
+  baseURL: "https://mobile-8-oct-dev-12930-prod.herokuapp.com/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list(action) {
